@@ -1,11 +1,22 @@
 import React from 'react'
 import {motion} from 'framer-motion';
-type Props = {}
-
-export default function ExperienceCard({}: Props) {
+import Image from 'next/image'
+type Props = {
+ details:{   id:Number,
+    name:String,
+    role:String,
+    startData:String,
+    endData:String,
+    skills:Array<String>,
+    responsibilities:Array<String>
+}
+}
+export default function ExperienceCard({details}: Props) {
+    console.log(details);
+    
   return (
   <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 mt-10
-  w-[500px] md:w-[600px] xl:w-[900px] xl:h-[550px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
+  w-[500px] md:w-[500px] xl:w-[700px] xl:h-[550px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
  <motion.img 
     initial={{
         y:-100,
@@ -20,20 +31,21 @@ export default function ExperienceCard({}: Props) {
  />
 
  <div className='px-0 md:px-10'>
-    <h4 className='text-4xl font-light'>Research Project Assistant</h4>
-    <p className='font-bold text-2xl mt-1'>The Research Foundation for SUNY, SUNY RF</p>
+    <h4 className='text-4xl font-light'>{details.role}</h4>
+    <p className='font-bold text-2xl mt-1'>{details.name}</p>
     <div className='flex space-x-2 my-2'>
     <img className='h-10 w-10 rounded-full'
     src='https://cdn-icons-png.flaticon.com/512/5968/5968292.png'/>
     </div>
-        <p className='uppercase py-5 text-gray-300'>Started word ... - Ended</p>
+        <p className='uppercase py-2 text-gray-300'>{details.startData} - {details.endData}</p>
 
         <ul className='list-disc space-y-4 ml-5 text-lg max-h-96 overflow-y-scroll
         scrollbar-thin scrollbar-track-black scrollbar-thumb-[#F7AB0A]/80'>
-            <li>A</li>
-            <li>B</li>
-            <li>C</li>
-            <li>D</li>
+            {details.responsibilities.map(
+                (det,i)=><li key={i}>
+                    {det}
+                </li>
+            )}
         </ul>
  
  

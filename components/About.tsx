@@ -1,6 +1,12 @@
 import React from 'react'
 import {motion} from 'framer-motion';
+
 type Props = {}
+
+// type StaticImageData ={
+//     src:string | StaticImageData
+// }
+// import ppic from './ppic.jpg';
 
 export default function About({}: Props) {
   return (
@@ -27,7 +33,7 @@ export default function About({}: Props) {
         viewport={{once:true}}
         className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-57 rounded-full object-cover
         md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[400px] z-10" 
-        src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAePHGk4zQacrlExygB4QUQlmSmCR9Qxd1Sw&usqp=CAU'     
+        src='https://media.licdn.com/dms/image/C5603AQGN8H_lSiVw-A/profile-displayphoto-shrink_400_400/0/1659730368066?e=1678320000&v=beta&t=kJ9eX6ZSDxqbhkou6o1YSKFGcJk6pgS1oORXVqJpfto'     
         />
 
         <div className='space-y-10 px-10 md:px-10'>
@@ -35,8 +41,12 @@ export default function About({}: Props) {
                 Here is a <span className='underline decoration-[#F7AB0A]/50'> little</span> background
             </h4>
             <p className='text-base'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatibus magni omnis voluptates cupiditate, quo tempora laudantium aliquam, deleniti ipsa fugiat ducimus neque ratione dolore iste soluta iusto eligendi necessitatibus!
-            </p>
+            Quick learner and excellent problem solver with experience and sound knowledge on cutting
+edge up-to-date web development technologies such as React.js, Node.js, Angular, Express.js,
+MongoDB seeking a full stack web developer role in your company. I’d like to utilize my 2
+years of experience as MEAN/ MERN stack web developer and problem-solving skills for your
+company achieve its goals and learn new things that I don’t know of.
+              </p>
         </div>
 
 

@@ -25,11 +25,12 @@ export default function Header({}: Props) {
 
          className='flex flex-row items-center'>
 
-            <SocialIcon url='https://www.facebook.com' fgColor='gray' bgColor='transparent' />
+            <SocialIcon url='https://www.youtube.com/@learnNewNFast/featured' fgColor='gray' bgColor='transparent' />
 
-            <SocialIcon url='https://www.facebook.com' fgColor='gray' bgColor='transparent' />
+            <SocialIcon url='https://www.facebook.com/ramkishorebandla/' fgColor='gray' bgColor='transparent' />
 
-            <SocialIcon url='https://www.facebook.com' fgColor='gray' bgColor='transparent' />
+            <SocialIcon url='https://www.instagram.com/ram_kishore.b/' fgColor='gray' bgColor='transparent' />
+            <SocialIcon url='https://www.linkedin.com/in/ram-kishore-bandla/' fgColor='gray' bgColor='transparent' />
         </motion.div>
         <Link href="#contact">
         <motion.div

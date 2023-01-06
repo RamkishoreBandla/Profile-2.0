@@ -4,6 +4,28 @@ import ExperienceCard from './ExperienceCard';
 type Props = {}
 
 export default function WorkExperience({ }: Props) {
+
+    const Details=[
+        {
+            id:1,
+            name:'The Research Foundation for SUNY, SUNY RF',
+            role:'Research Assistant',
+            startData:'08/2022',
+            endData:'Current',
+            skills:['https://cdn-icons-png.flaticon.com/512/5968/5968292.png'],
+            responsibilities:['UI','Backend','CI/CD']
+
+        },{
+            id:2,
+            name:'Infosys',
+            role:'Specialist Programmer',
+            startData:'11/2020',
+            endData:'07/2022',
+            skills:['https://cdn-icons-png.flaticon.com/512/5968/5968292.png'],
+            responsibilities:['UI','Backend','CI/CD']
+        }
+    ]
+
     return (
         <motion.div
             initial={{ opacity: 0 }}
@@ -19,8 +41,8 @@ export default function WorkExperience({ }: Props) {
             <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory
             scrollbar scrollbar-track-gray-400/20  scrollbar-thumb-[#f7ab0a]/80
             '>
-                <ExperienceCard />
-                <ExperienceCard />
+                <ExperienceCard details={Details[0]} />
+                <ExperienceCard details={Details[1]} />
                
             </div>
         </motion.div>

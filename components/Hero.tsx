@@ -2,8 +2,14 @@ import Link from 'next/link'
 import React from 'react'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles'
+import ppic from './ppic.jpg';
+import Image from 'next/image'
 
 type Props = {}
+export interface StaticImageData {
+    src:string | StaticImageData,
+    className?: string 
+}
 
 export default function Hero({ }: Props) {
     const [text, count] = useTypewriter({
@@ -18,8 +24,8 @@ export default function Hero({ }: Props) {
     return (
         <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
             <BackgroundCircles />
-            <img className='relative rounded-full h-32 w-32 mx-auto object-cover'
-                src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAePHGk4zQacrlExygB4QUQlmSmCR9Qxd1Sw&usqp=CAU' />
+            <Image className='relative rounded-full h-32 w-32 mx-auto object-cover'
+                src={ppic} alt="" />
             <div className='z-20'>
                 <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>Full Stack Developer</h2>
                 <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
