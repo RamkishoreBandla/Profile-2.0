@@ -25,12 +25,16 @@ export default function ContactMe({}: Props) {
                      <p>bandlaramkishore090@gmail.com</p>
                 </div>
                 <div className='flex items-center space-x-5'>
+                     <EnvelopeIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse'  />
+                     <p>rbandla@albany.edu</p>
+                </div>
+                <div className='flex items-center space-x-5'>
                      <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse'  />
                      <p>Albany, NY</p>
                 </div>
             </div>
 
-            <form  className='flex flex-col space-y-2 w-fit mx-auto'>
+            {/* <form  className='flex flex-col space-y-2 w-fit mx-auto'>
                 <div className='flex space-x-2'>
                     <input type="text" placeholder='Name' className='contactInput' />
                     <input type="text" placeholder='Email' className='contactInput'/>
@@ -38,7 +42,7 @@ export default function ContactMe({}: Props) {
                 <input type="text" placeholder='Subject' className='contactInput'/>
                     <textarea placeholder='Message' className='contactInput'/>
                 <button type='submit' className='bg-[#f7ab0a] py-5 px-10 rounded-md text-black font-bold text-lg'>Submit</button>
-            </form>
+            </form> */}
         </div>
         
         </div>
