@@ -26,7 +26,7 @@ export default function About({}: Props) {
         whileInView={{x:0, opacity:1}}
         viewport={{once:true}}
         className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-57 rounded-full object-cover
-        md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[400px]" 
+        md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[400px] z-10" 
         src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAePHGk4zQacrlExygB4QUQlmSmCR9Qxd1Sw&usqp=CAU'     
         />
 
