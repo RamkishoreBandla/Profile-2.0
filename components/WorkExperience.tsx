@@ -13,7 +13,9 @@ export default function WorkExperience({ }: Props) {
             startData:'08/2022',
             endData:'Current',
             skills:['https://cdn-icons-png.flaticon.com/512/5968/5968292.png'],
-            responsibilities:['UI','Backend','CI/CD']
+            responsibilities:[`Designed and developed the application’s matching algorithm`,`Developed user friendly UI using React.js and server logic using
+            Express.js.`,`Implemented CI/CD using GitHub Actions and deployed the
+            application using Docker, AWS`]
 
         },{
             id:2,
@@ -22,7 +24,17 @@ export default function WorkExperience({ }: Props) {
             startData:'11/2020',
             endData:'07/2022',
             skills:['https://cdn-icons-png.flaticon.com/512/5968/5968292.png'],
-            responsibilities:['UI','Backend','CI/CD']
+            responsibilities:[`Implemented new features that will help to track the progress
+            of the partners`,
+            `Implemented a feature that will enable the leadership role to
+            assign a review pod for a particular set of partners to track the
+            progress of those set of partners`,
+            `Designed and developed efficient and maintainable software
+            according to business objectives and requirements from the
+            clients`,`Managed development milestones from initial steps through
+            final delivery.
+            `,`Worked as a Full stack developer and wrote business and
+            functional logic using React.js, Angular and Node.js.`]
         }
     ]
 

@@ -16,7 +16,8 @@ export default function ExperienceCard({details}: Props) {
     
   return (
   <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 mt-10
-  w-[500px] md:w-[500px] xl:w-[700px] xl:h-[550px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
+  w-[500px] md:w-[500px] xl:w-[700px] xl:h-[550px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-y-scroll
+  scrollbar-thin scrollbar-track-black scrollbar-thumb-[#292929]/80'>
  <motion.img 
     initial={{
         y:-100,
@@ -34,13 +35,19 @@ export default function ExperienceCard({details}: Props) {
     <h4 className='text-4xl font-light'>{details.role}</h4>
     <p className='font-bold text-2xl mt-1'>{details.name}</p>
     <div className='flex space-x-2 my-2'>
-    <img className='h-10 w-10 rounded-full'
+    <img className='h-8 w-8 rounded-full'
     src='https://cdn-icons-png.flaticon.com/512/5968/5968292.png'/>
+     <img className='h-8 w-8 rounded-full'
+    src='https://cdn-icons-png.flaticon.com/512/875/875209.png'/>
+     <img className='h-8 w-8 rounded-full'
+    src='https://cdn-icons-png.flaticon.com/512/919/919825.png'/>
+     <img className='h-8 w-8 rounded-full'
+    src='https://cdn-icons-png.flaticon.com/512/919/919836.png'/>
     </div>
         <p className='uppercase py-2 text-gray-300'>{details.startData} - {details.endData}</p>
 
-        <ul className='list-disc space-y-4 ml-5 text-lg max-h-96 overflow-y-scroll
-        scrollbar-thin scrollbar-track-black scrollbar-thumb-[#F7AB0A]/80'>
+        <ul className='list-disc space-y-4 ml-3 text-lg max-h-96 overflow-y-scroll overflow-scroll
+        scrollbar-thin scrollbar-track-black scrollbar-thumb-[#292929]/80'>
             {details.responsibilities.map(
                 (det,i)=><li key={i}>
                     {det}
