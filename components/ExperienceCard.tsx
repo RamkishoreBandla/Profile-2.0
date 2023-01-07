@@ -35,7 +35,7 @@ export default function ExperienceCard({details}: Props) {
     <h4 className='text-4xl font-light'>{details.role}</h4>
     <p className='font-bold text-2xl mt-1'>{details.name}</p>
     <div className='flex space-x-2 my-2'>
-        {details.skills.map(tech=><img className='h-8 w-8 rounded-full'
+        {details.skills.map((tech,i)=><img key={i} className='h-8 w-8 rounded-full'
     src={tech} alt=''/>)}
    
     </div>
