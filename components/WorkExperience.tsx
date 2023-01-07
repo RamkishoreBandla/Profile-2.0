@@ -21,7 +21,8 @@ export default function WorkExperience({ }: Props) {
         ],
             responsibilities:[`Designed and developed the application’s matching algorithm`,`Developed user friendly UI using React.js and server logic using
             Express.js.`,`Implemented CI/CD using GitHub Actions and deployed the
-            application using Docker, AWS`]
+            application using Docker, AWS`],
+            companyImage:'https://www.suny.edu/media/suny/content-assets/images/research/SUNYRF-no-text.jpg'
 
         },{
             id:2,
@@ -50,7 +51,8 @@ export default function WorkExperience({ }: Props) {
             clients`,`Managed development milestones from initial steps through
             final delivery.
             `,`Worked as a Full stack developer and wrote business and
-            functional logic using React.js, Angular and Node.js.`]
+            functional logic using React.js, Angular and Node.js.`],
+            companyImage:'https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/v1415386231/utypaslbyxwfuwhfdzxd.png'
         }
     ]
 

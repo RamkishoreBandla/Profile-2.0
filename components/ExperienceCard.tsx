@@ -8,7 +8,8 @@ type Props = {
     startData:String,
     endData:String,
     skills:Array<string>,
-    responsibilities:Array<String>
+    responsibilities:Array<String>,
+    companyImage:string
 }
 }
 export default function ExperienceCard({details}: Props) {
@@ -26,8 +27,8 @@ export default function ExperienceCard({details}: Props) {
     transition={{duration:1.2}}
     whileInView={{opacity:1,y:0}}
     viewport={{once:true}}
- className='w-32 h-32 rounded-full xl:w-[200px] xh:h-[200px] object-cover object-center' 
- src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAePHGk4zQacrlExygB4QUQlmSmCR9Qxd1Sw&usqp=CAU' 
+ className='w-32 h-32 rounded-full xl:w-[300px] xh:h-[200px] object-cover object-center' 
+ src={details.companyImage}
  alt=''
  />
 
