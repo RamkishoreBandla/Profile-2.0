@@ -8,7 +8,7 @@ export default function Skills({}: Props) {
   const skillDetails=[
     {
       imageUrl:"https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
-    percentage:"90%",
+    percentage:"95%",
     name:"Javascript"
     },
     {
@@ -18,18 +18,18 @@ export default function Skills({}: Props) {
     },
     {
       imageUrl:"https://cdn-icons-png.flaticon.com/512/875/875209.png",
-    percentage:"90%",
+    percentage:"95%",
     name:"React.js"
     },
     {
       imageUrl:"https://as2.ftcdn.net/v2/jpg/02/95/03/85/1000_F_295038583_mn0uxJ6A0YO57HA4xXQqHFUjiW1BcqBE.jpg",
-    percentage:"80%",
+    percentage:"90%",
     name:"Angular"
     },
     {
      
       imageUrl:"https://cdn-icons-png.flaticon.com/512/919/919825.png",
-      percentage:"80%",
+      percentage:"90%",
       name:"Node.js"
     },
     {
@@ -50,17 +50,17 @@ export default function Skills({}: Props) {
     },
     {
       imageUrl:"https://cdn-icons-png.flaticon.com/512/5968/5968350.png",
-      percentage:"80%",
+      percentage:"90%",
       name:"Python"
     },
     {
       imageUrl:"https://cdn-icons-png.flaticon.com/512/5969/5969059.png",
-      percentage:"80%",
+      percentage:"70%",
       name:"Docker"
     },
     {
       imageUrl:"https://cdn-icons-png.flaticon.com/512/2085/2085263.png",
-      percentage:"80%",
+      percentage:"95%",
       name:"HTML , CSS"
     }
 ]
