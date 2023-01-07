@@ -44,7 +44,7 @@ export default function About({}: Props) {
             Quick learner and excellent problem solver with experience and sound knowledge on cutting
 edge up-to-date web development technologies such as React.js, Node.js, Angular, Express.js,
 MongoDB seeking a full stack web developer role in your company. I’d like to utilize my 2
-years of experience as MEAN/ MERN stack web developer and problem-solving skills for your
+years of experience as <span className='underline decoration-[#F7AB0A]/50'> MEAN / MERN </span>  stack web developer and problem-solving skills for your
 company achieve its goals and learn new things that I don’t know of.
               </p>
         </div>

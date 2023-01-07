@@ -39,7 +39,7 @@ export default function Skills({}: Props) {
       name:"MySQL"
     },
     {
-      imageUrl:"./mongodb.jpg",
+      imageUrl:"https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png",
       percentage:"80%",
       name:"MongoDB"
     },
@@ -62,6 +62,20 @@ export default function Skills({}: Props) {
       imageUrl:"https://cdn-icons-png.flaticon.com/512/2085/2085263.png",
       percentage:"95%",
       name:"HTML , CSS"
+    },{
+      imageUrl:"https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
+      percentage:"50%",
+      name:"AWS"
+    },
+    {
+      imageUrl:"https://www.brainvire.com/wp/wp-content/uploads/2016/05/express-js-an-ideal-node-js-framework-to-develop-enterprise-web-applications.jpg",
+      percentage:"95%",
+      name:"Express.js"
+    },
+    {
+      imageUrl:"https://www.incredibuild.com/wp-content/uploads/2020/09/azure_devops-1.png",
+      percentage:"85%",
+      name:"Azure DevOps"
     }
 ]
 
@@ -77,11 +91,11 @@ export default function Skills({}: Props) {
         Skills
         </h3>
 
-        <h3 className='absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm'>
+        {/* <h3 className='absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm'>
             Hover over for skill proficiency
-        </h3>
+        </h3> */}
 
-            <div className='grid grid-cols-4 gap-5'>
+            <div className='grid grid-cols-5 gap-12'>
               {skillDetails.map((skill,i)=> <Skill key={i} skillDetails={skill}/>)}
             </div>
             

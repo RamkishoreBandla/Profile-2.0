@@ -7,7 +7,7 @@ type Props = {
     role:String,
     startData:String,
     endData:String,
-    skills:Array<String>,
+    skills:Array<string>,
     responsibilities:Array<String>
 }
 }
@@ -35,14 +35,9 @@ export default function ExperienceCard({details}: Props) {
     <h4 className='text-4xl font-light'>{details.role}</h4>
     <p className='font-bold text-2xl mt-1'>{details.name}</p>
     <div className='flex space-x-2 my-2'>
-    <img className='h-8 w-8 rounded-full'
-    src='https://cdn-icons-png.flaticon.com/512/5968/5968292.png'/>
-     <img className='h-8 w-8 rounded-full'
-    src='https://cdn-icons-png.flaticon.com/512/875/875209.png'/>
-     <img className='h-8 w-8 rounded-full'
-    src='https://cdn-icons-png.flaticon.com/512/919/919825.png'/>
-     <img className='h-8 w-8 rounded-full'
-    src='https://cdn-icons-png.flaticon.com/512/919/919836.png'/>
+        {details.skills.map(tech=><img className='h-8 w-8 rounded-full'
+    src={tech} alt=''/>)}
+   
     </div>
         <p className='uppercase py-2 text-gray-300'>{details.startData} - {details.endData}</p>
 

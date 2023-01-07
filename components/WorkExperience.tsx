@@ -12,7 +12,13 @@ export default function WorkExperience({ }: Props) {
             role:'Research Assistant',
             startData:'08/2022',
             endData:'Current',
-            skills:['https://cdn-icons-png.flaticon.com/512/5968/5968292.png'],
+            skills:['https://cdn-icons-png.flaticon.com/512/5968/5968292.png',
+                'https://cdn-icons-png.flaticon.com/512/875/875209.png',
+                'https://cdn-icons-png.flaticon.com/512/919/919825.png',
+                'https://cdn-icons-png.flaticon.com/512/919/919836.png',
+                'https://cdn-icons-png.flaticon.com/512/5969/5969059.png',
+                'https://cdn-icons-png.flaticon.com/512/2085/2085263.png'    
+        ],
             responsibilities:[`Designed and developed the application’s matching algorithm`,`Developed user friendly UI using React.js and server logic using
             Express.js.`,`Implemented CI/CD using GitHub Actions and deployed the
             application using Docker, AWS`]
@@ -23,7 +29,17 @@ export default function WorkExperience({ }: Props) {
             role:'Specialist Programmer',
             startData:'11/2020',
             endData:'07/2022',
-            skills:['https://cdn-icons-png.flaticon.com/512/5968/5968292.png'],
+            skills:['https://cdn-icons-png.flaticon.com/512/5968/5968292.png',
+            'https://cdn-icons-png.flaticon.com/512/875/875209.png',
+            'https://cdn-icons-png.flaticon.com/512/919/919825.png',
+            'https://cdn-icons-png.flaticon.com/512/919/919836.png',
+            'https://cdn-icons-png.flaticon.com/512/5969/5969059.png',
+            'https://as2.ftcdn.net/v2/jpg/02/95/03/85/1000_F_295038583_mn0uxJ6A0YO57HA4xXQqHFUjiW1BcqBE.jpg',
+            'https://cdn-icons-png.flaticon.com/512/2085/2085263.png',
+            "https://www.incredibuild.com/wp-content/uploads/2020/09/azure_devops-1.png",
+            "https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png",
+            `https://www.brainvire.com/wp/wp-content/uploads/2016/05/express-js-an-ideal-node-js-framework-to-develop-enterprise-web-applications.jpg`
+        ],
             responsibilities:[`Implemented new features that will help to track the progress
             of the partners`,
             `Implemented a feature that will enable the leadership role to
