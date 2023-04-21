@@ -33,7 +33,7 @@ export default function About({}: Props) {
         viewport={{once:true}}
         className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-57 rounded-full object-cover
         md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[400px] z-10" 
-        src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.123rf.com%2Fphoto_167245882_programmer-computer-expert-rgb-color-icon-man-coding-on-laptop-freelance-software-developer-at-work-.html%3Fvti%3Dlosmjk6jsb30f1fe41-1-46&psig=AOvVaw33Ybj6k09Hd70KRo_bFWPw&ust=1682181268039000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJDKoNmzu_4CFQAAAAAdAAAAABAF'     
+        src='https://us.123rf.com/450wm/bsd555/bsd5552104/bsd555210400427/167054160-programmer-computer-expert-black-linear-icon-man-coding-on-laptop-freelance-software-developer-at.jpg?ver=6'     
         />
 
         <div className='space-y-10 px-10 md:px-10'>
