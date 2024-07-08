@@ -28,7 +28,7 @@ export default function WorkExperience({ }: Props) {
             id:2,
             name:'Infosys',
             role:'Specialist Programmer',
-            startData:'11/2020',
+            startData:'07/2020',
             endData:'07/2022',
             skills:['https://cdn-icons-png.flaticon.com/512/5968/5968292.png',
             'https://cdn-icons-png.flaticon.com/512/875/875209.png',
